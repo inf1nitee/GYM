@@ -1,0 +1,46 @@
+.one {
+	width: 1000px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.one-image{
+    width: 100px;
+    height: 100px;
+}
+#imagelist {
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	padding: 0;
+}
+
+#imagelist li {
+	float: left;
+}
+
+#imagelist img {
+	width: 1000px;
+}
+
+#one-anniu {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+
+#one-anniu a {
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	background-color: #675c5c;
+	float: left;
+	opacity: 0.5;
+	
+	filter: alpha(opacity=50);
+}
+
+#one-anniu a:hover {
+	background-color: black;
+}
